@@ -7,7 +7,7 @@ import WhatsappButton from "@/components/whatsapp-button"
 
 export const metadata: Metadata = {
   title: "Sahi Solutions",
-  description: "Sahi Solutions",
+  description: "Sahi Solutions - It Solutions for your business",
   generator: "Sahi Solutions",
 }
 

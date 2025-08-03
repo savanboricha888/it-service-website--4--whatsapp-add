@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Phone } from "lucide-react"
 import Link from "next/link"
 
 export function Navigation() {
@@ -56,15 +56,21 @@ export function Navigation() {
               </div>
             </div>
             <Link href="/#about" className="text-white hover:text-[#D4FF1E] transition-colors">
-              About
+              About Us
             </Link>
             <Link href="/#contact" className="text-white hover:text-[#D4FF1E] transition-colors">
-              Contact
+              Contact Us
             </Link>
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* Call Info and CTA Button */}
+          <div className="hidden md:flex items-center space-x-6">
+            <div className="flex items-center space-x-2">
+              <Phone className="h-5 w-5" style={{ color: "#D4FF1E" }} />
+              <span className="text-sm text-white">
+                Call us today! <span style={{ color: "#D4FF1E" }}>+91 9624559599</span>
+              </span>
+            </div>
             <Link href="/#contact">
               <Button className="font-semibold text-black hover:opacity-90" style={{ backgroundColor: "#D4FF1E" }}>
                 Get Started
@@ -102,11 +108,17 @@ export function Navigation() {
                 Product Engineering & Development
               </Link>
               <Link href="/#about" className="text-white hover:text-[#D4FF1E] transition-colors">
-                About
+                About Us
               </Link>
               <Link href="/#contact" className="text-white hover:text-[#D4FF1E] transition-colors">
-                Contact
+                Contact Us
               </Link>
+              <div className="flex items-center space-x-2 pt-2">
+                <Phone className="h-5 w-5" style={{ color: "#D4FF1E" }} />
+                <span className="text-sm text-white">
+                  Call us today! <span style={{ color: "#D4FF1E" }}>+91 9624559599</span>
+                </span>
+              </div>
               <Link href="/#contact">
                 <Button className="font-semibold text-black w-full" style={{ backgroundColor: "#D4FF1E" }}>
                   Get Started

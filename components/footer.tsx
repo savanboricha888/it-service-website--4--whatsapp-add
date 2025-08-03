@@ -1,5 +1,5 @@
 import { Logo } from "@/components/logo"
-import { Linkedin, Facebook, Instagram, Youtube, PhoneIcon as Whatsapp } from "lucide-react"
+import { Linkedin, Facebook, Instagram, Youtube, PhoneIcon as Whatsapp, Phone, Mail, MapPin } from "lucide-react"
 import Link from "next/link"
 
 export function Footer() {
@@ -121,16 +121,24 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4" style={{ color: "#D4FF1E" }}>
               Contact
             </h3>
-            <ul className="space-y-2" style={{ color: "#D3D3D3" }}>
-              <li>
+            <ul className="space-y-3" style={{ color: "#D3D3D3" }}>
+              <li className="flex items-center space-x-2">
+                <Phone className="h-4 w-4" style={{ color: "#D4FF1E" }} />
                 <Link href="tel:+919624559599" className="hover:text-[#D4FF1E] transition-colors">
-                  +919624559599
+                  +91 9624559599
                 </Link>
               </li>
-              <li>
+              <li className="flex items-center space-x-2">
+                <Mail className="h-4 w-4" style={{ color: "#D4FF1E" }} />
                 <Link href="mailto:sahisolutions3272@gmail.com" className="hover:text-[#D4FF1E] transition-colors">
                   sahisolutions3272@gmail.com
                 </Link>
+              </li>
+              <li className="flex items-center space-x-2">
+                <MapPin className="h-4 w-4" style={{ color: "#D4FF1E" }} />
+                <span style={{ color: "#D3D3D3" }}>
+                  Ahmedabad, India
+                </span>
               </li>
             </ul>
           </div>

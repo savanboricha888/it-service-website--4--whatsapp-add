@@ -26,7 +26,7 @@ export default function ServicesPage() {
       ],
       technologies: ["HTML5", "CSS3", "React", "Node.js", "WordPress", "Shopify"],
       link: "/services/web-development",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop",
     },
     {
       id: "app-development",

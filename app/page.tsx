@@ -445,7 +445,15 @@ export default async function ITServiceWebsite() {
                     </div>
                   </div>
 
-                  {/* Removed Address section */}
+                  <div className="flex items-start space-x-3">
+                    <div className="p-2 rounded-lg" style={{ backgroundColor: "rgba(164, 209, 0, 0.2)" }}>
+                      <Award className="h-6 w-6" style={{ color: "#D4FF1E" }} />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-white">Address</div>
+                      <div style={{ color: "#D3D3D3" }}>Ahmedabad, India</div>
+                    </div>
+                  </div>
                 </div>
               </div>
 

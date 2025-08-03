@@ -60,14 +60,20 @@ export function ContactForm() {
           </div>
           
           <div>
-            <label className="text-sm font-medium mb-2 block text-white">Mobile Number</label>
+            <label className="text-sm font-medium mb-2 block text-white">Mobile Number *</label>
             <Input
               name="mobile"
               type="tel"
-              placeholder="+1 (555) 123-4567"
+              placeholder="9624559599"
+              required
+              pattern="[0-9]{10}"
+              title="Please enter a valid 10-digit mobile number"
               className="text-white border focus:ring-1"
               style={{ backgroundColor: "#1a2f35", borderColor: "#A3D100" }}
             />
+            <p className="text-xs mt-1" style={{ color: "#D3D3D3" }}>
+              Enter 10-digit mobile number without country code
+            </p>
           </div>
 
           <div>

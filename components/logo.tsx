@@ -10,7 +10,7 @@ const LOGO_CONFIG = {
   imageLogo: {
     src: "/sahi-logo.png", // Using the new image logo path
     width: 100, // Further adjusted width for a smaller size
-    height: 30, // Further adjusted height for a smaller size
+    height: 35, // Further adjusted height for a smaller size
     alt: "Sahi Solutions - S Crown Logo",
   },
 
@@ -41,7 +41,7 @@ export function Logo({ variant = "header", className = "" }: LogoProps) {
           alt="Sahi Solutions - S Crown Logo"
           width={LOGO_CONFIG.imageLogo.width}
           height={LOGO_CONFIG.imageLogo.height}
-          className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto object-contain flex-shrink-0"
+          className="h-6 sm:h-10 md:h-12 lg:h-16 w-auto object-contain flex-shrink-0"
           priority
         />
         <span

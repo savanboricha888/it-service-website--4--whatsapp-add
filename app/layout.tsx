@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sahi Solutions - IT Solutions for Your Business",
     description: "Comprehensive IT services including web development, app development, digital marketing, and product engineering.",
-    type: "website",
+
     locale: "en_US",
   },
   twitter: {
